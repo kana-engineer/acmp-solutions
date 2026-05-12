@@ -7,5 +7,4 @@ public class MAin {
         int a = in.nextInt(), b = in.nextInt();
         System.out.println((b - 1) + " " +  (a - 1));
     }
-    
 }

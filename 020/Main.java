@@ -5,8 +5,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
 
         long n = in.nextInt();
-        long result = n / 10;
-        System.out.println(result * (result + 1) * 100 + 25);
+        System.out.println(n / 10 * ((n / 10) + 1) * 100 + 25);
     }
     
 }
